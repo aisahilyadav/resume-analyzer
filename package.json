@@ -2,9 +2,10 @@
   "name": "resume-analyzer",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+"scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
